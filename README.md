@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a Sudoku solver in C++. The solver reads a Sudoku puzzle either from user input or from a file, validates the input, and then employs a backtracking algorithm to solve the puzzle.
+This project implements a Sudoku solver in C++. The solver reads a Sudoku puzzle either from user input or from a file, validates the input, and employs a backtracking algorithm to solve the puzzle.
 
 ## Features
 
@@ -27,21 +27,7 @@ This project implements a Sudoku solver in C++. The solver reads a Sudoku puzzle
 - For manual input, the user is prompted to enter values for each cell (0 for empty cells).
 - For file input, the file should contain 81 integers separated by spaces, representing the Sudoku grid.
 
-### Example Input File
-
-```
-5 3 0 0 7 0 0 0 0
-6 0 0 1 9 5 0 0 0
-0 9 8 0 0 0 0 6 0
-8 0 0 0 6 0 0 0 3
-4 0 0 8 0 3 0 0 1
-7 0 0 0 2 0 0 0 6
-0 6 0 0 0 0 2 8 0
-0 0 0 4 1 9 0 0 5
-0 0 0 0 8 0 0 7 9
-```
-
-### Example Usage
+### Usage
 
 1. Compile the program using a C++ compiler:
    ```bash
@@ -54,35 +40,6 @@ This project implements a Sudoku solver in C++. The solver reads a Sudoku puzzle
    ```
 
 3. Follow the prompts to input the Sudoku puzzle.
-
-### Example Output
-
-```
-++=====================================++
-|| 5  3  |   7  |          ||
-++-----------++-----------++-----------++
-|| 6     | 1  9  5 |        ||
-++-----------++-----------++-----------++
-||    9  8 |       |  6     ||
-++-----------++-----------++-----------++
-|| 8     |   6     |    3   ||
-++-----------++-----------++-----------++
-|| 4     | 8  3   |      1  ||
-++-----------++-----------++-----------++
-|| 7     | 2     |   6     ||
-++-----------++-----------++-----------++
-||    6  |       | 2  8     ||
-++-----------++-----------++-----------++
-||        | 4  1  9 |       ||
-++-----------++-----------++-----------++
-||        |       | 8  7  9 ||
-++=====================================++
-
-Calculating...
-Puzzle solved!
-
-Recursive calls: 12
-```
 
 ## Complexity Analysis
 
