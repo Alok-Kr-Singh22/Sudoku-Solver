@@ -450,5 +450,3 @@ int main(){
 	SudokuSolver ss;
 	return 0;
 }
-
-remove unnecessary comments from my code and write useful comment but dont change the code
